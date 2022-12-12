@@ -3,8 +3,10 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+
 body {
-  background: rgba(85, 85, 85, 1)
+  background-image: url("./imgs/fundo.jpg");
+
 }
 
 a {
