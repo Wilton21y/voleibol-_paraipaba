@@ -5,9 +5,10 @@ ul {
 }
 
 body {
-  background-image: url("../Imgs/Fundo.jpg");
-Background: linear-gradient(45deg, black, #FFE102);
-
+  Background: linear-gradient(45deg, black, #FFE102) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 a {
