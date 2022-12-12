@@ -5,7 +5,7 @@ ul {
 }
 
 body {
-  Background: linear-gradient(65deg, black, #FFE102) no-repeat;
+  Background: url("./Img/Fundo.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
