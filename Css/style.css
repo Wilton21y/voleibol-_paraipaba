@@ -33,6 +33,7 @@ a:hover {
   height: 50px;
   border-radius: 50%;
   border: 5px solid #FFE102;
+  margin-right: 5px;
 }
 
 #header {
