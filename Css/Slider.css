@@ -1,0 +1,48 @@
+body {
+  background: #464646
+}
+p,
+h1 {
+  text-align: center;
+  color: #FFE403
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+/* SLIDER */
+
+.item {
+  width: 400px;
+  height: 180px;
+  background: #fff;
+  flex-shrink: 0;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 600ms ease-in-out;
+}
+
+.item a img {
+  width: 400px;
+  height: 180px;
+}
+
+.item:hover {
+  opacity: 1;
+}
+
+.conteiner {
+  width: 99%;
+  padding: 15px;
+}
+
+.carrosel-wap {
+  overflow-x: auto;
+}
+
+.slider {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
