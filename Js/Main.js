@@ -8,7 +8,11 @@ function toggleMenu(event) { if (event.type === 'touchstart') event.preventDefau
 btnMobile.addEventListener('touchstart', toggleMenu);
 
 // SLIDER 
-function inicia() { document.querySelectorAll('.item').forEach(item => { item.addEventListener('click', (e) => { e.target.scrollIntoView({ inline: 'center', behavior: 'smooth', }); }); }); 
+function inicia() { 
+Alert("ok");
+document.querySelectorAll('.item').forEach(item => { 
+item.addEventListener('click', (e) => { 
+e.target.scrollIntoView({ inline: 'center', behavior: 'smooth', }); }); }); 
   
 } 
 
